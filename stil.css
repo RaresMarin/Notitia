@@ -1,0 +1,276 @@
+body{
+    background-image: url("B.png");
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    font-size:60px;
+    color:rgb(7, 7, 146);
+    font-family: cursive;
+}
+h2{
+    font-family: cursive;
+    color:white;
+}
+.switch {
+  position: relative;
+  float: left;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+#Lica{
+    background-color: #5c0505;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+#reve{
+display:none;
+}
+input:checked + .slider {
+  background-color: #5c0505;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #5c0505;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+#Fa{
+     background-color: aliceblue;
+     width: 40%;
+     display:block;
+     margin:auto;
+     float: right;
+     padding: 20px;
+}
+#t{
+    display:grid;
+    justify-self: center;
+    align-items: center;
+    height: 90vh;
+}
+img{
+    display:block;
+    margin: auto;
+    cursor: pointer;
+}
+#C {
+    transform: rotate(0deg);
+    transition: transform 1.5s;
+}
+
+#C:hover {
+    transform: rotate(360deg);
+}
+#c {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    gap:5px;
+    margin-top:-30%;
+}
+address{
+    float:right;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    font-size:15px;
+    color:rgb(7, 7, 146);
+    font-family: cursive;
+}
+.s{
+    height: 200px;
+    margin: 40px;
+    width: 200px;
+}
+#da{
+   animation: bici 5s;
+}
+.P{
+    border-radius:50%;
+    height: 150px;
+    width: 150px;
+}
+.pata{
+    border-radius: 50%;
+    height:100px;
+    width: 100px;
+    position: relative;
+    margin:auto;
+    display: block;
+    background-color: black;
+    animation: bici1 10s;
+}
+h3{
+    text-align: center;
+    font-family: cursive;
+    color:rgb(7, 7, 146);
+}
+ul li{
+    text-align: center;
+    font-family: cursive;
+}
+@keyframes bici{
+    0%{transform: translateX(0px)  scale(1.5) translateY(0px);}
+    100%{transform: translateX(500px) scale(1.5) translateY(-500px);}
+}
+@keyframes bici1{
+    0%{transform: translateX(0px) translateY(0px);}
+    100%{transform: translateX(500px) translateY(-500px);}
+}
+#s{
+    background-color: rgb(247, 166, 220);
+}
+#f{
+    background-color: rgb(71, 255, 132);
+}
+#v{
+    background-color: rgb(71, 234, 255);
+}
+#l{
+  background-color: rgb(247, 175, 94);
+}
+#d{
+    background-color: rgb(147, 147, 251);
+}
+#c img {
+    display:block;
+}
+label{
+    text-align:center;
+    font-family:cursive;
+    color:white;
+    font-size:20px;
+    margin:10px;
+}
+input,textarea{
+    border-radius:10px;
+    display:block;
+    margin:auto;
+    text-align: center;
+    border:none;
+}
+.Da{
+    width: 30vw;
+    height: 40vh;
+}
+button{
+    border-radius: 10px;
+    cursor: pointer;
+    border:none;
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 100px;
+}
+nav{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:#44281a;
+    font-size:20px;
+    padding: 4px;
+}
+nav li{
+    list-style-type: none;
+    display:inline;
+    margin:30px;
+}
+#O{
+    background-color:transparent;
+    backdrop-filter: blur(25px);
+    display:flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 30vw;
+}
+@media (max-width:1300px) {
+    #Fad{
+        width: 30%;
+    }
+        #Fa{
+        width: 30%;
+    }
+}
+@media (max-width:600px) {
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size:15px;
+    }
+    body{
+        background-image: url("B.png");
+    }
+    .v{
+        display:none;
+    }
+    #HUH{
+        width: 100%;
+        grid-template-columns: repeat(1,0fr);
+    }
+    #c{
+        display:none;
+    }
+    #SD{
+        display:none;
+    }
+    #Fady{
+        display:none;
+    }
+    nav li{
+    margin:10px;
+    }
+}
