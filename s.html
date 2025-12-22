@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Notiția</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stil.css">
+        <link rel="icon" href="Bici1.png" type="image/jpg">
+    </head>
+    <body>            <h1 id="D">Panou cu notițe</h1>
+    <a href="index.html"><img class="v" id="V"  style="float:left;width:400px;margin:80px;transform: scale(1.5);" src="Fundal1.png" alt="Fundal"/></a>
+
+    <div id="HUH" style="display: grid;justify-content: center;align-items: center;grid-template-columns: repeat(2,0fr);width: 60%;gap:20">
+        <div class="s" id="s">
+        <div style="border-radius:50%;background-color: yellow;height: 2vw;display:block;margin:auto;width: 2vw;"></div>
+        <p>„Dacă vrei să-ți înțelegi viața, privește în urmă; dacă vrei să-ți trăiești viața, privește înainte.”</p>
+        <address>Søren Kierkegaard</address>
+    </div>
+    <div class="s" id="v">
+        <div style="border-radius:50%;background-color: yellow;height: 2vw;display:block;margin:auto;width: 2vw;"></div>
+        <p>„Tot ceea ce ne irită la cei din jur, ne poate conduce la o mai bună înțelegere a propriei persoane.”</p>
+        <address>Carl Jung</address>
+    </div>
+    <div class="s" id="f">
+        <div style="border-radius:50%;background-color: yellow;height: 2vw;display:block;margin:auto;width: 2vw;"></div>
+        <p>„Poţi să alegi singur drumul pe care să o apuci pentru că ştii ce vrei şi decizia îţi aparţine în totalitate”</p>
+        <address>Dr. Seuss</address>
+    </div>
+    <div class="s" id="l">
+        <div style="border-radius:50%;background-color: yellow;height: 2vw;display:block;margin:auto;width: 2vw;"></div>
+        <p>„Trebuie să ai curajul de a te accepta aşa cum eşti, chiar dacă pentru alţii eşti inacceptabil”</p>
+        <address>Paul Tillich</address>
+    </div>
+    
+    </div>
+    <form id="B" style="display:none;">
+        <div id="O">
+        <label for="note">Citat</label>
+        <textarea type="text" id="note" name="note" placeholder="Scrie aici..." rows="5" collums="40"></textarea>
+        <label for="note1">Autor</label>
+        <input type="text" id="note1" name="note1" placeholder="Scrie aici...">
+        <label for="note2">Culoare</label>
+        <input type="color" id="note2" name="note2">
+        <button type="button" onclick="adaugare()" style="text-align:center">Adauga</button>
+        </div>
+    </form>
+    <div id="c">
+    <a href="s1.html"><img src="Fundal2.png" alt="Fundal"/></a>
+    <a href="s2.html"><img src="Fundal3.png" alt="Fundal"/></a>
+    <a href="s3.html"><img src="Fundal4.png" alt="Fundal"/></a>
+    </div>    
+      <div id="P" style="display: grid;justify-content: center;align-items: center;grid-template-columns: repeat(6,0fr);width: 100%;gap:20" >
+    <div id="Pt"style="display: grid;justify-content: center;align-items: center;grid-template-columns: repeat(6,0fr);width: 100%;gap:20">
+        <div class="s" id="d">
+        <div style="border-radius:50%;background-color: yellow;height: 2vw;display:block;margin:auto;width: 2vw;"></div>
+        <p>„Dacă tu crezi că eşti prea mic să faci o diferenţă, încearcă să dormi în cameră cu un ţânţar.”</p>
+        <address>Dalai Lama XIV</address>
+    </div>
+
+    <div class="s" id="v">
+        <div style="border-radius:50%;background-color: yellow;height: 2vw;display:block;margin:auto;width: 2vw;"></div>
+        <p>„De ce mi-ar păsa de ceea ce spun ceilalţi despre mine? Sunt cine sunt şi ştiu exact ce-mi doresc”</p>
+        <address>Avril Lavigne</address>
+    </div>
+    <div class="s" id="l">
+        <div style="border-radius:50%;background-color: yellow;height: 2vw;display:block;margin:auto;width: 2vw;"></div>
+        <p>„De îndată ce vei avea încredere în tine, vei şti exact cum îţi doreşti să trăieşti”</p>
+        <address>Johann Wolfgang von Goethe</address>
+    </div>
+     <div class="s" id="f">
+        <div style="border-radius:50%;background-color: yellow;height: 2vw;display:block;margin:auto;width: 2vw;"></div>
+        <p>„Când eşti diferit, uneori nu vezi milioanele de persoane care te acceptă aşa cum eşti."</p>
+        <address>Jodi Picoult</address>
+    </div>
+    </div>
+     <div class="s" id="s">
+        <h3 style="font-size:70px;text-align: center;cursor:pointer;" onclick="fun()">+</h3>
+    </div>
+    </div>
+    <script src="carduri.js"></script>
+</body>
+    </html>
