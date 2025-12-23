@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Notiția</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stil.css">
+        <link rel="icon" href="Fundal3.png" type="image/jpg">
+        <style>
+            p{
+                color:black
+            }
+            h2{
+                color:black;
+            }
+            h1{
+                color:black
+            }
+            label{
+                color:black;
+                margin:20px;
+                
+            }
+            input{
+                margin:auto;
+                transform: scale(1.2);
+            }
+            #reve{
+                font-size:20px
+            }
+            button{
+                font-size:15px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="display: grid;grid-template-columns: repeat(3,1fr);">
+         <a href="index.html"><img class="v" id="V"  style="width:400px;margin:80px;transform: scale(1.4);" src="Fundal3.png" alt="Fundal"/></a>
+    <div id="Fady" style="width: 100%;background-color: aliceblue;text-align: center;">
+        <div id="Da" style="border-radius:50%;background-color: rgb(0, 0, 0);height: 2vw;display:block;margin:auto;width: 2vw;"></div>
+         <h1 id="nu" style="font-family: 'Times New Roman', Times, serif;">Graiul psihologiei</h1>
+         <label id="nu1" class="switch">
+  <input type="checkbox" id="Ap">
+  <span class="slider round"></span>
+  
+</label>
+<address id="nu2">29/11/2025</address>
+<br/>
+        <div id="Fa">
+            <li style="font-family: 'Times New Roman', Times, serif;float: left;font-size: 20px;font-weight: bold;padding:20px;">Efectele rețelelor sociale</li>
+<br/><br/><br/><p style="font-family: 'Times New Roman', Times, serif;font-size: 20px;">Rețelele sociale au transformat modul în care comunicăm și interacționăm. Deși oferă oportunități de conectare, ele pot avea și efecte negative asupra sănătății mentale, cum ar fi anxietatea, depresia și scăderea stimei de sine. Este important să fim conștienți de impactul pe care aceste platforme îl au asupra noastră și să le folosim cu moderație.</p>
+   <li style="font-family: 'Times New Roman', Times, serif;float: left;font-size: 20px;font-weight: bold;padding:20px;">Identitatea digitală</li>
+ <br/><br/><br/><p style="font-family: 'Times New Roman', Times, serif;font-size: 20px;">În era digitală, identitatea noastră online devine tot mai importantă. Modul în care ne prezentăm pe internet poate influența percepția celorlalți și poate avea consecințe asupra vieții noastre personale și profesionale. Este esențial să fim autentici și să gestionăm cu atenție informațiile pe care le împărtășim online.</p>
+<li style="font-family: 'Times New Roman', Times, serif;float: left;font-size: 20px;font-weight: bold;padding:20px;">Cyberbulling</li>
+   <br/><br/><br/> <p style="font-family: 'Times New Roman', Times, serif;font-size: 20px;">Cyberbullying-ul reprezintă o formă de hărțuire care are loc în mediul online. Acesta poate avea efecte devastatoare asupra victimelor, afectându-le sănătatea mentală și bunăstarea generală. Este crucial să promovăm un comportament responsabil pe internet și să oferim sprijin celor afectați de acest fenomen.</p>
+</div>
+    <div id="Fad" style="background-color: aliceblue;height: 39vw;width: 40%;display:block;margin:auto;float: left;padding:20px;border-right:5px solid black">
+<h2 style="font-family: 'Times New Roman', Times, serif;font-size: 30px;">Dependența de tehnologie</h2>
+<p style="font-family: 'Times New Roman', Times, serif;font-size: 20px;">În era digitală în care trăim, tehnologia a devenit o parte integrantă a vieților noastre. Deși oferă numeroase beneficii, utilizarea excesivă a tehnologiei poate duce la dependență, afectând sănătatea mentală și relațiile sociale. Este esențial să găsim un echilibru între utilizarea tehnologiei și activitățile offline pentru a ne menține bunăstarea psihologică.</p>  
+<li style="font-family: 'Times New Roman', Times, serif;float: left;font-size: 20px;font-weight: bold;">Multitasking și atenția</li>
+  <br/>  <p style="font-family: 'Times New Roman', Times, serif;font-size: 20px;">Într-o lume plină de distrageri digitale, capacitatea noastră de a ne concentra asupra unei singure sarcini este adesea compromisă. Multitasking-ul poate părea eficient, dar cercetările arată că reduce productivitatea și calitatea muncii. Este important să ne antrenăm mintea să se concentreze și să evităm supraîncărcarea informațională.</p>
+  <img style="height: 15vh;width: 10vw;padding: 10px;" src="s.png" alt="d"/>
+<button onclick="da()" style="text-align:center;background-color:#5c0505;color:white;border-radius:50%;cursor:pointer;">Chestionar</button>
+</div>
+    </div>
+    <div id="so" style="display:none;background-image: url('Screenshot_2025-11-29_212051.png');height: 60vh;width: 25vw;position: absolute;left:40.5%;top:0%;">
+                    <button onclick="day()" style="margin-top: 30px;background-color: transparent;cursor: pointer;">Întoarcere</button>
+        <div style="margin-top:20px;position: relative;color:black;">
+            <p style="float: left;font-size: 20px;margin:5px;text-shadow:1px 1px #5c0505">Ești dependent de tehnologie?</p>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+        <label for="bici" style="width: 60%;">Ai probleme cu mâncarea</label>
+        <input class="DF" type="checkbox" name="bici" id="bici">
+        <hr style="width: 60%;float: left;"/>
+        <br/>
+         <label for="bici1">Îți e frică să nu ratezi ceva</label>
+         <input class="DF" type="checkbox" name="bici1" id="bici1">
+         <hr style="width: 60%;float: left;"/>
+        <br/>
+         <label for="bici2">Ești lipsit de motivație</label>
+        <input class="DF" type="checkbox" name="bici2" id="bici2">
+        <hr style="width: 60%;float: left;"/>
+        <br/>
+         <label for="bici3">Adormi târziu în fiecare seară</label>
+         <input class="DF" type="checkbox" name="bici3" id="bici3">
+         <hr style="width: 60%;float: left;"/>
+        <br/>
+        <br/>
+        <br/>
+
+        <p id="Resultat"></p>
+        
+<p id="reve" style="width: 100%;backdrop-filter: blur(20px);"></p>
+        </div>
+</div>
+        <div id="SD" style="float:right">
+    <a href="s.html"><img src="Fundal1.png" alt="Fundal"/></a>
+    <a href="s1.html"><img src="Fundal2.png" alt="Fundal"/></a>
+    <a href="s3.html"><img src="Fundal4.png" alt="Fundal"/></a>
+    </div>   
+    </div>
+    <script src="c1.js"></script>
+</body>
+    </html>
