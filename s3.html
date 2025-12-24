@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Notiția</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stil.css">
+        <link rel="icon" href="Fundal4.png" type="image/jpg">
+        <style>
+            button{
+                background-color: rgb(4, 82, 4);
+                font-size:15px;
+                color:white;
+                margin:10px
+            }
+        </style>
+    </head>
+    <body>
+    <div id="SD" style="float:left">
+    <a href="s.html"><img src="Fundal1.png" alt="Fundal"/></a>
+    <a href="s1.html"><img src="Fundal2.png" alt="Fundal"/></a>
+    <a href="s2.html"><img src="Fundal3.png" alt="Fundal"/></a>
+    </div> 
+            <div style="display: grid;grid-template-columns: repeat(2,1fr);justify-content: center;align-items: center;">
+    <div id="Lica">
+<h2 style="text-align: center;font-size: 40px;">Listă cu lucruri de făcut</h2>
+<div style="display: block;margin: auto;">
+<button style="margin:10px;display:inline;" onclick="sterge()" type="button">Șterge listă</button>
+<input style="margin:10px;display:inline;" type="text" id="D">
+<button style="margin:10px;display:inline;" onclick="fun()" type="button">Adaugă</button>
+    <h2 class="h2">Să vorbesc cu 3 persoane noi.</h2>
+    <h2 class="h2">Să fac plimbări scurte sau gimnastică.</h2>
+    <h2 class="h2">Să practic respirația profundă.</h2>
+</div>
+    </div> 
+         <a href="index.html"><img class="v" id="V"  style="float:right;width:400px;margin:80px;transform: scale(1.4);" src="Fundal4.png" alt="Fundal"/></a>
+    </div>
+    <div id="P" style="display: grid;justify-content: center;align-items: center;grid-template-columns: repeat(6,0fr);width: 100%;gap:20" >
+    <div style="display: grid;justify-content: center;align-items: center;grid-template-columns: repeat(6,0fr);width: 100%;gap:20">
+        <div class="s" id="ap" style="background-color: rgb(4, 82, 4);color:white;position: relative;margin-top:-100px;margin-left:60px">
+        <div style="border-radius:50%;background-color: yellow;height: 2vw;display:block;margin:auto;width: 2vw;"></div>
+                <p style="color:white;">Dacă nu știi cu ce să începi poți genera aleatoriu un lucru de pe listă.</p>
+             <button onclick="f()" style="display: block;margin: auto;border: none;background-color: #694d37;font-family: cursive;">Alege</button>
+    </div>
+    </div>
+    </div>
+    <div id="P" style="display: grid;justify-content: center;align-items: center;grid-template-columns: repeat(6,0fr);width: 100%;gap:20" >
+    <div style="display: grid;justify-content: center;align-items: center;grid-template-columns: repeat(6,0fr);width: 100%;gap:20">
+        <div class="s" id="ap" style="background-color: rgb(4, 82, 4);color:white;position: relative;margin-top:-235px;margin-left:-32vw">
+        <div style="border-radius:50%;background-color: yellow;height: 2vw;display:block;margin:auto;width: 2vw;"></div>
+ <p style="color:white;">Limita este de 8 lucruri. Dacă nu mai ai loc poți șterge lista și să faci alta.</p>
+        <address>Administratorul</address>
+    </div>
+    </div>
+    </div>
+      <h2 id="circ" style="text-align: center;"></h2>
+    <script src="c2.js"></script>
+</body>
+    </html>
