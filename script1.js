@@ -43,8 +43,8 @@ function Apare(n){
     document.getElementById("1").href = imaginii[index];
 const links = Array.from(document.getElementsByTagName("a"));
 links.forEach((element) => {
-    element.style.color = culori1[j];
-    element.style.backgroundColor = culori[j];
+    element.style.backgroundColor = culori1[j];
+    element.style.color = culori[j];
 });
 console.log(j);
 }
@@ -76,8 +76,8 @@ function Apare1(n){
     document.getElementById("1").href = imaginii[index];
 const links = Array.from(document.getElementsByTagName("a"));
 links.forEach((element) => {
-    element.style.color = culori1[j];
-    element.style.backgroundColor = culori[j];
+    element.style.backgroundColor = culori1[j];
+    element.style.color = culori[j];
 });
 }
 let quizEmotii;
@@ -362,16 +362,16 @@ function s(){
   raspunsuri: [
     { text: "Regret și tristețe", emotie: "tristete" },
     { text: "Acceptare calmă", emotie: "liniste" },
-    { text: "Determinație să faci mai bine", emotie: "energie" },
+    { text: "Determinare să faci mai bine", emotie: "energie" },
     { text: "Furie pe tine însuți", emotie: "furie" }
   ]
 },
 {
-  intrebare: "Cum te simți când cineva îți oferă un compliment neașteptat?",
+  intrebare: "Ce simți când cineva îți oferă un compliment neașteptat?",
   raspunsuri: [
     { text: "Bucurie și încântare", emotie: "fericire" },
     { text: "Ușurare și calm", emotie: "liniste" },
-    { text: "Un pic stânjenit", emotie: "anxietate" },
+    { text: "Rușine", emotie: "anxietate" },
     { text: "Energie pozitivă și motivație", emotie: "energie" }
   ]
 },
@@ -387,10 +387,10 @@ function s(){
 {
   intrebare: "Cum reacționezi atunci când cineva te ignoră fără motiv?",
   raspunsuri: [
-    { text: "Furie și frustrare", emotie: "furie" },
-    { text: "Tristețe și dezamăgire", emotie: "tristete" },
+    { text: "Furios și frustrat", emotie: "furie" },
+    { text: "Trist și dezamăgit", emotie: "tristete" },
     { text: "Încerc să rămân calm", emotie: "liniste" },
-    { text: "Nesiguranță și anxietate", emotie: "anxietate" }
+    { text: "Nesigur și anxios", emotie: "anxietate" }
   ]
 }
 ];
@@ -459,6 +459,61 @@ function s(){
       { text: "O persoană care se simte înțeleasă", emotie: "psiholog" }
     ]
   }
+  ,
+  {
+  intrebare: "Ce tip de sarcină îți place cel mai mult?",
+  raspunsuri: [
+    { text: "Să scriu sau să repar cod", emotie: "programator" },
+    { text: "Să creez ceva estetic", emotie: "designer" },
+    { text: "Să organizez și să planific", emotie: "manager" },
+    { text: "Să explic clar un concept", emotie: "profesor" }
+  ]
+},
+{
+  intrebare: "Cum preferi să ajuți oamenii?",
+  raspunsuri: [
+    { text: "Prin sprijin emoțional", emotie: "psiholog" },
+    { text: "Prin tratament și îngrijire", emotie: "medic" },
+    { text: "Prin coordonare și decizii", emotie: "manager" },
+    { text: "Prin soluții tehnice", emotie: "programator" }
+  ]
+},
+{
+  intrebare: "Ce mediu de lucru te atrage?",
+  raspunsuri: [
+    { text: "Sală de clasă", emotie: "profesor" },
+    { text: "Cabinet medical", emotie: "medic" },
+    { text: "Agenție creativă", emotie: "designer" },
+    { text: "Birou de management", emotie: "manager" }
+  ]
+},
+{
+  intrebare: "Ce calitate te definește cel mai bine?",
+  raspunsuri: [
+    { text: "Gândirea logică", emotie: "programator" },
+    { text: "Creativitatea", emotie: "designer" },
+    { text: "Empatia", emotie: "psiholog" },
+    { text: "Responsabilitatea", emotie: "manager" }
+  ]
+},
+{
+  intrebare: "Ce îți place să faci în timpul liber?",
+  raspunsuri: [
+    { text: "Să învăț lucruri noi și să explic altora", emotie: "profesor" },
+    { text: "Să citesc despre sănătate și corp", emotie: "medic" },
+    { text: "Să rezolv puzzle-uri logice", emotie: "programator" },
+    { text: "Să creez artă sau design", emotie: "designer" }
+  ]
+},
+{
+  intrebare: "Cum reacționezi când cineva are o problemă?",
+  raspunsuri: [
+    { text: "Îl ascult cu atenție", emotie: "psiholog" },
+    { text: "Încerc să găsesc cauza și soluția", emotie: "medic" },
+    { text: "Organizez pașii de rezolvare", emotie: "manager" },
+    { text: "Explic clar ce trebuie făcut", emotie: "profesor" }
+  ]
+}
 ];
  scorEmotii = {
   programator: 0,
